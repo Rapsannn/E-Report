@@ -4,6 +4,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hero .col img {
     width: 500px;
 }
@@ -19,6 +23,23 @@ section {
 
 #about .col img {
    width: 600px; 
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.footer-link {
+    opacity: 75%;
+}
+
+.footer-link:hover {
+    opacity: 100%;
+}
+
+.copyright {
+    margin-top: 100px;
 }
 
 @media (max-width: 1024px) {
