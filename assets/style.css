@@ -8,21 +8,33 @@ html {
     scroll-behavior: smooth;
 }
 
-.hero .col img {
-    width: 500px;
-}
-
 section {
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.hero .col img {
+    width: 500px;
 }
 
 .hero .col p {
     width: 500px;
 }
 
+.hero {
+    overflow: hidden;
+}
+
+.hero .col:nth-child(1) {
+    --animate-delay: 0.5s;
+}
+
 #about .col img {
    width: 600px; 
+}
+
+#recent {
+    margin-top: 80px;
 }
 
 footer {
@@ -41,6 +53,7 @@ footer {
 .copyright {
     margin-top: 100px;
 }
+
 
 @media (max-width: 1024px) {
     .hero .col img {
