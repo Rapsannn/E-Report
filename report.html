@@ -68,17 +68,25 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto gap-4 text-center pt-4 pt-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-primary" aria-current="page" href="index.html#hero">Home</a
+              <a
+                class="nav-link text-primary"
+                aria-current="page"
+                href="index.html#hero"
+                >Home</a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link text-primary" href="index.html#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary" href="index.html#services">Services</a>
+              <a class="nav-link text-primary" href="index.html#services"
+                >Services</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary" href="index.html#recent">Recent</a>
+              <a class="nav-link text-primary" href="index.html#recent"
+                >Recent</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link text-primary" href="index.html#faq">FAQ</a>
@@ -89,180 +97,105 @@
     </nav>
     <!-- navbar end -->
 
-    <!-- all report -->
+    <!-- single report -->
     <section id="report">
-      <div class="container">
-        <!-- Judul -->
-        <div class="text-center">
-          <h1
-            class="fw-bold text-primary-emphasis"
-            data-aos="fade-up"
-            data-aos-duration="500"
-          >
-            All Reports
-          </h1>
-          <p
-            class="lh-lg text-secondary"
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="300"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-            quae tempore aperiam adipisci quasi libero fugit quod iure itaque
-            culpa!
-          </p>
-        </div>
+      <div class="container my-5">
+        <div class="row g-4">
+          <!-- main content -->
+          <div class="col-lg-8">
+            <nav class="mt-2 mb-5 d-lg-none" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">
+                  <a href="reports.html">All Reports</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Keran Masjid Rusak
+                </li>
+              </ol>
+            </nav>
+            
+            <h1 class="fw-bold mb-3">Laporan Fasilitas : Air Kotor</h1>
+            <p>
+              By <span class="text-primary fw-semibold">Rafsan</span> | 2 Jam
+              Yang Lalu
+            </p>
+            <div style="height: 400px; overflow: hidden">
+              <img
+                class="img-fluid rounded-3 shadow-sm"
+                src="assets/images/air kotor.jpg"
+                alt=""
+              />
+            </div>
 
-        <!-- filter -->
-        <div class="row g-3 mt-3">
-          <div class="col-md-4">
-            <input
-              type="text"
-              class="form-control shadow-sm"
-              placeholder="Cari Laporan..."
-            />
-          </div>
-          <div class="col">
-            <select class="form-select shadow-sm" name="" id="">
-              <option value="">Pilih Kategori</option>
-              <option value="">Akademik</option>
-              <option value="">Fasilitas</option>
-              <option value="">Anonymous</option>
-            </select>
-          </div>
-          <div class="col">
-            <select class="form-select shadow-sm" name="" id="">
-              <option value="">Urutkan</option>
-              <option value="">Akademik</option>
-              <option value="">Fasilitas</option>
-              <option value="">Anonymous</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <button class="btn btn-primary w-100">
-              <i class="fa-solid fa-filter"></i>
-              Filter
-            </button>
-          </div>
-        </div>
+            <p class="lh-lg mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, omnis
+              deleniti. Suscipit eius enim officiis repellat. Pariatur cum
+              blanditiis inventore laudantium itaque debitis! Iste labore odio
+              officiis laudantium molestias nam?
+            </p>
+            <blockquote
+              class="text-secondary border-start border-primary border-3 p-3 fst-italic my-3"
+            >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+              placeat cupiditate excepturi?
+            </blockquote>
+            <p class="lh-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque est ea animi ex rerum libero molestias, velit atque
+              molestiae maxime.
+            </p>
 
-        <!-- cards -->
-        <div class="row mt-5">
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div
-                class="position-absolute px-3 py-2"
-                style="background-color: rgba(0, 0, 0, 0.3)"
-              >
-                <a class="text-white text-decoration-none" href="">Fasilitas</a>
+            <hr>
+            <h5 class="fw-bold mb-3">Komentar</h5>
+            <form action="">
+              <div class="form-group mb-4">
+                <textarea class="form-control shadow-sm rounded-3" rows="3" name="" id="" placeholder="Tulis Komentar..."></textarea>
               </div>
-              <div style="max-height: 210px; overflow: hidden">
-                <img
-                  src="assets/images/air kotor.jpg"
-                  class="img-fluid object-cover object-center"
-                  alt="Foto Report"
-                />
-              </div>
+              <button class="btn btn-primary px-4">
+                Kirim
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+
+          <!-- aside -->
+          <div class="col-lg-4 mt-5">
+            <nav class="mt-2 mb-5 d-none d-lg-block" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">
+                  <a href="reports.html">All Reports</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Keran Masjid Rusak
+                </li>
+              </ol>
+            </nav>
+
+            <div class="card shadow-sm mb-4">
+              <div class="card-header fw-bold">Recent Report</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fa-solid fa-chevron-right text-primary me-2"></i>Judul Report 1</li>
+                <li class="list-group-item"><i class="fa-solid fa-chevron-right text-primary me-2"></i>Judul Report 2</li>
+                <li class="list-group-item"><i class="fa-solid fa-chevron-right text-primary me-2"></i>Judul Report 3</li>
+              </ul>
+            </div>
+
+            <div class="card shadow-sm">
+              <div class="card-header fw-bold">Recent Report</div>
               <div class="card-body">
-                <h5 class="card-title">Air Kotor</h5>
-                <p>
-                  <small
-                    >By: <a class="text-decoration-none" href="">Anonymous</a> 4
-                    day ago</small
-                  >
-                </p>
-                <p class="card-text">
-                  Pengguna menemukan kualitas air kurang bersih/keruh dan
-                  berpotensi mengganggu kenyamanan.
-                </p>
-                <a href="#" class="btn btn-primary">Selengkapnya</a>
+                <a class="badge text-bg-primary text-decoration-none p-2" href="">Report</a>
+                <a class="badge text-bg-success text-decoration-none p-2" href="">Fasilitas</a>
+                <a class="badge text-bg-danger text-decoration-none p-2" href="">Anonymous</a>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div
-                class="position-absolute px-3 py-2"
-                style="background-color: rgba(0, 0, 0, 0.3)"
-              >
-                <a class="text-white text-decoration-none" href="">Fasilitas</a>
-              </div>
-              <div style="max-height: 210px; overflow: hidden">
-                <img
-                  src="assets/images/wifi error.webp"
-                  class="img-fluid object-cover object-center"
-                  alt="Foto Report"
-                />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Wifi Lemott</h5>
-                <p>
-                  <small
-                    >By:
-                    <a class="text-decoration-none" href=""
-                      >Muhamad Rafsanjani</a
-                    >
-                    6 hour ago</small
-                  >
-                </p>
-                <p class="card-text">
-                  Pengguna mengalami akses jaringan yang tidak stabil dan butuh
-                  perbaikan segera.
-                </p>
-                <a href="#" class="btn btn-primary">Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div
-                class="position-absolute px-3 py-2"
-                style="background-color: rgba(0, 0, 0, 0.3)"
-              >
-                <a class="text-white text-decoration-none" href="">Fasilitas</a>
-              </div>
-              <div style="max-height: 210px; overflow: hidden">
-                <img
-                  src="assets/images/mati listrik.webp"
-                  class="img-fluid object-cover object-center"
-                  alt="Foto Report"
-                />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Sering Mati Listrik</h5>
-                <p>
-                  <small
-                    >By:
-                    <a class="text-decoration-none" href=""
-                      >Muhamad Rafsanjani</a
-                    >
-                    1 day ago</small
-                  >
-                </p>
-                <p class="card-text">
-                  Laporan terkait pemadaman listrik yang terlalu sering sehingga
-                  menimbulkan ketidaknyamanan.
-                </p>
-                <a href="#" class="btn btn-primary">Selengkapnya</a>
-              </div>
-            </div>
+
           </div>
         </div>
-        <!-- cards end -->
-
-        <!-- pagination -->
-        <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center mt-5">
-            <li class="page-item"><a class="page-link disabled" href="#">Previous</a></li>
-            <li class="page-item"><a class="page-link active" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
-        </nav>
       </div>
     </section>
-    <!-- all report end -->
+    <!-- single report end -->
 
     <!-- footer -->
     <footer class="bg-primary py-5">
@@ -286,10 +219,14 @@
           </div>
           <div class="col-md-2 d-flex flex-column text-white gap-2">
             <h4 class="fw-bold">Menu</h4>
-            <a class="footer-link text-decoration-none text-white" href="index.html#hero"
+            <a
+              class="footer-link text-decoration-none text-white"
+              href="index.html#hero"
               >Home</a
             >
-            <a class="footer-link text-decoration-none text-white" href="index.html#about"
+            <a
+              class="footer-link text-decoration-none text-white"
+              href="index.html#about"
               >About</a
             >
             <a
@@ -302,7 +239,9 @@
               href="index.html#recent"
               >Recent</a
             >
-            <a class="footer-link text-decoration-none text-white" href="index.html#faq"
+            <a
+              class="footer-link text-decoration-none text-white"
+              href="index.html#faq"
               >FAQ</a
             >
           </div>
