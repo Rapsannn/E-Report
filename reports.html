@@ -93,7 +93,8 @@
     <section id="report">
       <div class="container">
         <!-- Judul -->
-        <div class="text-center">
+         <div class="d-flex justify-content-center justify-content-md-between align-items-center flex-wrap mb-5">
+        <div class="col-md-8 text-center text-md-start">
           <h1
             class="fw-bold text-primary-emphasis"
             data-aos="fade-up"
@@ -107,11 +108,16 @@
             data-aos-duration="500"
             data-aos-delay="300"
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-            quae tempore aperiam adipisci quasi libero fugit quod iure itaque
-            culpa!
+            Menampilkan semua laporan yang telah dikirim oleh pengguna secara lengkap dan terurut.
           </p>
         </div>
+        <div>
+          <button class="btn btn-primary px-4" data-bs-toggle="modal" data-bs-target="#addModal">
+            <i class="fa-solid fa-plus me-2"></i>
+            Tambah Laporan
+          </button>
+        </div>
+         </div>
 
         <!-- filter -->
         <div class="row g-3 mt-3">
@@ -264,6 +270,53 @@
     </section>
     <!-- all report end -->
 
+    <!-- Tambah report modal -->
+      <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+              <h1 class="modal-title fs-5 fw-semibold" id="exampleModalLabel">
+                <i class="fa-solid fa-pen-to-square"></i>
+                Tambah Laporan Baru
+              </h1>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="">
+            <div class="modal-body p-md-4">
+              <div class="mb-3">
+                <label class="mb-2" for="">Judul Laporan: </label>
+                  <input class="form-control shadow-sm" type="text" placeholder="Masukan Judul Laporan...">
+              </div>
+              <div class="mb-3">
+                <label class="mb-2" for="">Pilih Kategori: </label>
+                  <select class="form-select shadow-sm" name="" id="">
+                    <option value="">Pilih Kategori</option>
+                    <option value="akademik">Akademik</option>
+                    <option value="fasilitas">Fasilitas</option>
+                    <option value="anonymous">Anonymous</option>
+                  </select>
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold mb-2" for="">Isi Laporan: </label>
+                <textarea name="" class="form-control shadow-sm" placeholder="Masukan Deskripsi Laporan" id="" rows="7"></textarea>
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-semibold mb-2" for="">Apload Gambar: </label>
+                <input class="form-control shadow-sm" type="file" accept="image/*">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">
+                <i class="fa-solid fa-paper-plane"></i>
+                Kirim Laporan
+              </button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
     <!-- footer -->
     <footer class="bg-primary py-5">
       <div class="container">
@@ -279,9 +332,7 @@
               <h2 class="text-white m-0">E-Report</h2>
             </div>
             <p class="text-white lh-lg opacity-75 m-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              velit quaerat accusantium fugiat doloribus necessitatibus id
-              dignissimos neque dolores distinctio!
+              E-Report adalah sistem pelaporan digital yang memudahkan siswa dan guru menyampaikan keluhan atau saran agar dapat ditangani dengan cepat dan transparan.
             </p>
           </div>
           <div class="col-md-2 d-flex flex-column text-white gap-2">
